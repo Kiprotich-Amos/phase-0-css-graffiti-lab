@@ -1,1 +1,26 @@
 /* write your override styles here */
+
+
+#wall .tag-1{
+	display: none;
+}
+
+
+
+body.body{
+	background-color: white;
+	background-size: initial; 
+}
+
+body .tag-1,
+body #tag-2,
+body #tag-3,
+body #tag-4,
+body #tag-5,
+body #tag-6,
+body #tag-7 {
+  position: static;   top: auto;
+  left: auto;
+  width: auto;
+  height: auto;
+}
